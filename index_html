@@ -1,12 +1,189 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cuadros anime</title>
-    <link real="stylesheet" href="style.css">
+    <title>ANIME ART - Cuadros Premium de Anime</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800;900&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Cuadro Anime</h1>
+
+    <!-- Capa de Fondo Neón Distorsionada -->
+    <div class="bg-glow"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Navegación Header -->
+    <header class="header">
+        <a href="#" class="logo">ANIME<span>ART</span></a>
+        <nav class="nav-links">
+            <a href="#catalogo">Catálogo</a>
+            <a href="#calidad">Calidad</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <a href="https://wa.me/1234567890?text=Hola,%20quiero%20información%20sobre%20los%20cuadros%20de%20anime" target="_blank" class="btn-whatsapp-nav">
+            <svg viewBox="0 0 32 32" class="wa-icon"><path d="M16 2a13 13 0 0 0-11.3 19.4L3 29l7.8-1.6A13 13 0 1 0 16 2zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4a10.6 10.6 0 1 1 9.1 5zM21.5 18c-.3-.1-1.8-.9-2.1-1s-.5-.1-.7.2-.8 1-.9 1.2-.3.2-.6 0a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.4.1-.6l.4-.5.3-.4c.1-.2 0-.3 0-.5s-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.9 1.3 3.3 1.4 3.5 2.5 3.9 6.1 5.4c.9.4 1.5.6 2 .8 1 .3 1.8.2 2.5.1.8-.1 2.4-1 2.7-1.9s.3-1.8.2-1.9c-.1-.2-.4-.3-.7-.4z"/></svg>
+            Pedir por WhatsApp
+        </a>
+    </header>
+
+    <!-- Hero Section con Efecto Holográfico 3D CSS -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="badge-glow">Ediciones Limitadas 2026</div>
+            <h1 class="hero-title" data-text="LLEVA EL PODER DEL ANIME A TU PARED">
+                LLEVA EL PODER DEL ANIME A TU PARED
+            </h1>
+            <p class="hero-subtitle">
+                Cuadros acrílicos y lienzos de alta definición con iluminación Neón UV, acabados metálicos y diseños exclusivos.
+            </p>
+            <div class="hero-btns">
+                <a href="https://wa.me/1234567890?text=Hola,%20quiero%20ver%20el%20catálogo%20completo%20de%20cuadros" target="_blank" class="btn-primary">
+                    <span class="btn-text">Consultar Catálogo VIP</span>
+                </a>
+                <a href="#catalogo" class="btn-secondary">Ver Diseños</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="card-3d-wrapper">
+                <div class="card-3d">
+                    <div class="card-shine"></div>
+                    <img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?q=80&w=800&auto=format&fit=crop" alt="Cuadro Anime Premium" class="hero-img">
+                    <div class="card-tag">mona china - Acrílico Gloss</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee Continuo de Animes -->
+    <div class="marquee-container">
+        <div class="marquee-track">
+            <span>DRAGON BALL</span> • <span>NARUTO</span> • <span>ONE PIECE</span> • <span>ATTACK ON TITAN</span> • <span>DEMON SLAYER</span> • <span>JUJUTSU KAISEN</span> • <span>CYBERPUNK</span> • <span>SOLO LEVELING</span> •
+            <span>DRAGON BALL</span> • <span>NARUTO</span> • <span>ONE PIECE</span> • <span>ATTACK ON TITAN</span> • <span>DEMON SLAYER</span> • <span>JUJUTSU KAISEN</span> • <span>CYBERPUNK</span> • <span>SOLO LEVELING</span> •
+        </div>
+    </div>
+
+    <!-- Sección de Catálogo Destacado -->
+    <section id="catalogo" class="catalog-section">
+        <div class="section-header">
+            <h2>CUADROS DESTACADOS</h2>
+            <p>Haz clic en el botón de WhatsApp de cualquier modelo para pedir el tuyo a medida.</p>
+        </div>
+
+        <div class="grid-container">
+            <!-- Tarjeta 1 -->
+            <div class="product-card">
+                <div class="badge-card">Bestseller</div>
+                <div class="card-image-box">
+                    <img src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?q=80&w=600&auto=format&fit=crop" alt="Cuadro Cyberpunk Anime">
+                </div>
+                <div class="card-info">
+                    <h3>Neon Cyberpunk City</h3>
+                    <p class="specs">Lienzo Canvas Premium + Bastidor de Madera</p>
+                    <div class="price-row">
+                        <span class="price">Desde $45 USD</span>
+                        <span class="size">Varios Tamaños</span>
+                    </div>
+                    <a href="https://wa.me/1234567890?text=Hola,%20me%20interesa%20el%20cuadro%20Neon%20Cyberpunk%20City" target="_blank" class="btn-card-wa">
+                        <svg viewBox="0 0 32 32" class="wa-icon-small"><path d="M16 2a13 13 0 0 0-11.3 19.4L3 29l7.8-1.6A13 13 0 1 0 16 2zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4a10.6 10.6 0 1 1 9.1 5zM21.5 18c-.3-.1-1.8-.9-2.1-1s-.5-.1-.7.2-.8 1-.9 1.2-.3.2-.6 0a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.4.1-.6l.4-.5.3-.4c.1-.2 0-.3 0-.5s-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.9 1.3 3.3 1.4 3.5 2.5 3.9 6.1 5.4c.9.4 1.5.6 2 .8 1 .3 1.8.2 2.5.1.8-.1 2.4-1 2.7-1.9s.3-1.8.2-1.9c-.1-.2-.4-.3-.7-.4z"/></svg>
+                        Pedir este Modelo
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="product-card">
+                <div class="badge-card neon-purple">Metalizado</div>
+                <div class="card-image-box">
+                    <img src="https://images.unsplash.com/photo-1563089145-599997674d42?q=80&w=600&auto=format&fit=crop" alt="Cuadro Anime Guerrero">
+                </div>
+                <div class="card-info">
+                    <h3>Samurai Cyber Katana</h3>
+                    <p class="specs">Impresión Metálica en Aluminio Dibond</p>
+                    <div class="price-row">
+                        <span class="price">Desde $60 USD</span>
+                        <span class="size">Ultra Brillante</span>
+                    </div>
+                    <a href="https://wa.me/1234567890?text=Hola,%20me%20interesa%20el%20cuadro%20Samurai%20Cyber%20Katana" target="_blank" class="btn-card-wa">
+                        <svg viewBox="0 0 32 32" class="wa-icon-small"><path d="M16 2a13 13 0 0 0-11.3 19.4L3 29l7.8-1.6A13 13 0 1 0 16 2zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4a10.6 10.6 0 1 1 9.1 5zM21.5 18c-.3-.1-1.8-.9-2.1-1s-.5-.1-.7.2-.8 1-.9 1.2-.3.2-.6 0a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.4.1-.6l.4-.5.3-.4c.1-.2 0-.3 0-.5s-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.9 1.3 3.3 1.4 3.5 2.5 3.9 6.1 5.4c.9.4 1.5.6 2 .8 1 .3 1.8.2 2.5.1.8-.1 2.4-1 2.7-1.9s.3-1.8.2-1.9c-.1-.2-.4-.3-.7-.4z"/></svg>
+                        Pedir este Modelo
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="product-card">
+                <div class="badge-card neon-gold">Tríptico Gigante</div>
+                <div class="card-image-box">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=600&auto=format&fit=crop" alt="Cuadro Anime Abstracto">
+                </div>
+                <div class="card-info">
+                    <h3>Set Tríptico Demon Energy</h3>
+                    <p class="specs">3 Paneles Acrílicos Gloss de 40x80cm</p>
+                    <div class="price-row">
+                        <span class="price">Desde $95 USD</span>
+                        <span class="size">Set 3 Piezas</span>
+                    </div>
+                    <a href="https://wa.me/1234567890?text=Hola,%20me%20interesa%20el%20Set%20Tr%C3%ADptico%20Demon%20Energy" target="_blank" class="btn-card-wa">
+                        <svg viewBox="0 0 32 32" class="wa-icon-small"><path d="M16 2a13 13 0 0 0-11.3 19.4L3 29l7.8-1.6A13 13 0 1 0 16 2zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4a10.6 10.6 0 1 1 9.1 5zM21.5 18c-.3-.1-1.8-.9-2.1-1s-.5-.1-.7.2-.8 1-.9 1.2-.3.2-.6 0a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.4.1-.6l.4-.5.3-.4c.1-.2 0-.3 0-.5s-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.9 1.3 3.3 1.4 3.5 2.5 3.9 6.1 5.4c.9.4 1.5.6 2 .8 1 .3 1.8.2 2.5.1.8-.1 2.4-1 2.7-1.9s.3-1.8.2-1.9c-.1-.2-.4-.3-.7-.4z"/></svg>
+                        Pedir este Modelo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Características -->
+    <section id="calidad" class="features-section">
+        <div class="section-header">
+            <h2>¿POR QUÉ NUESTROS CUADROS SON ÚNICOS?</h2>
+        </div>
+        <div class="features-grid">
+            <div class="feature-box">
+                <div class="feature-icon">✨</div>
+                <h3>Tintas UV Anti-Desteñido</h3>
+                <p>Garantía de color vivo por más de 10 años sin perder intensidad.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">🖼️</div>
+                <h3>Acrílico Ultra Clear 4mm</h3>
+                <p>Acabado espejado y profundidad visual sin riesgo de roturas.</p>
+            </div>
+            <div class="feature-box">
+                <div class="feature-icon">🎨</div>
+                <h3>Personalización Total</h3>
+                <p>¿Tienes tu imagen favorita? Nos la envías por WhatsApp y la fabricamos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action Final con WhatsApp Prominente -->
+    <section id="contacto" class="cta-section">
+        <div class="cta-box">
+            <h2>¿TIENES UN DISEÑO EN MENTE O QUIERES VER TODO EL CATÁLOGO?</h2>
+            <p>Atención personalizada al instante. Te asesoramos con medidas, materiales y presupuestos sin compromiso.</p>
+            
+            <a href="https://wa.me/+573508327772?text=Hola!%20Quiero%20cotizar%20un%20cuadro%20de%20anime%20personalizado" target="_blank" class="btn-whatsapp-giant">
+                <div class="wa-pulse"></div>
+                <svg viewBox="0 0 32 32" class="wa-icon-giant"><path d="M16 2a13 13 0 0 0-11.3 19.4L3 29l7.8-1.6A13 13 0 1 0 16 2zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4a10.6 10.6 0 1 1 9.1 5zM21.5 18c-.3-.1-1.8-.9-2.1-1s-.5-.1-.7.2-.8 1-.9 1.2-.3.2-.6 0a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.4.1-.6l.4-.5.3-.4c.1-.2 0-.3 0-.5s-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.9 1.3 3.3 1.4 3.5 2.5 3.9 6.1 5.4c.9.4 1.5.6 2 .8 1 .3 1.8.2 2.5.1.8-.1 2.4-1 2.7-1.9s.3-1.8.2-1.9c-.1-.2-.4-.3-.7-.4z"/></svg>
+                <span>CHATEAR EN WHATSAPP AHORA</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Botón Flotante de WhatsApp Permanente -->
+    <a href="https://wa.me/+573508327772?text=Hola,%20quiero%20hacer%20una%20consulta%20sobre%20los%20cuadros" target="_blank" class="floating-wa" aria-label="Contacto por WhatsApp">
+        <span class="tooltip-wa">¡Hablemos por WhatsApp!</span>
+        <svg viewBox="0 0 32 32" class="wa-icon-float"><path d="M16 2a13 13 0 0 0-11.3 19.4L3 29l7.8-1.6A13 13 0 1 0 16 2zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-4 1 1-3.9-.3-.4a10.6 10.6 0 1 1 9.1 5zM21.5 18c-.3-.1-1.8-.9-2.1-1s-.5-.1-.7.2-.8 1-.9 1.2-.3.2-.6 0a8.2 8.2 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.4.1-.6l.4-.5.3-.4c.1-.2 0-.3 0-.5s-.7-1.7-1-2.3c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.2-1.2 2.9 1.3 3.3 1.4 3.5 2.5 3.9 6.1 5.4c.9.4 1.5.6 2 .8 1 .3 1.8.2 2.5.1.8-.1 2.4-1 2.7-1.9s.3-1.8.2-1.9c-.1-.2-.4-.3-.7-.4z"/></svg>
+    </a>
+
+    <footer>
+        <p>© 2026 ANIME ART Studio. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
 </html>
